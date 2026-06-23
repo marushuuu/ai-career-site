@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<iq:manifest xmlns:iq="com.garmin.iq" version="3">
+    <iq:application entry="MyFirstWatchFaceApp"
+                    id="a3421fee-7729-4f35-b0db-ba9b5f0d5d8b"
+                    launchType="WATCH_FACE"
+                    minSdkVersion="3.4.0"
+                    name="@Strings.AppName"
+                    type="watchFace">
+        <iq:products>
+            <iq:product id="venu3"/>
+        </iq:products>
+        <iq:permissions>
+            <iq:uses-permission id="ActivityMonitoring"/>
+            <iq:uses-permission id="HeartRate"/>
+            <iq:uses-permission id="SensorHistory"/>
+        </iq:permissions>
+        <iq:languages>
+            <iq:language>eng</iq:language>
+        </iq:languages>
+    </iq:application>
+</iq:manifest>
