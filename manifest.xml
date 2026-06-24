@@ -8,6 +8,7 @@
                     type="watchFace">
         <iq:products>
             <iq:product id="venu3"/>
+            <iq:product id="fr570"/>
         </iq:products>
         <iq:permissions>
             <iq:uses-permission id="ActivityMonitoring"/>

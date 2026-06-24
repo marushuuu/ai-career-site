@@ -1,1 +1,10 @@
 project.manifest = manifest.xml
+
+# Shared: App entry point
+base.sourcePath = source
+
+# Venu 3 (AMOLED 454x454) — glow effects, gradient colours
+venu3.sourcePath = $(base.sourcePath);source-venu3
+
+# Forerunner 570 (MIP) — high-contrast, no glow
+fr570.sourcePath = $(base.sourcePath);source-fr570
